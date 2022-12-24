@@ -1,0 +1,11 @@
+version: '3'
+services:
+  checker:
+    image: yswtrue/pt_register_check:latest
+    environment:
+      - RUST_LOG=debug
+      - SMTP_HOST=
+      - SMTP_USER=
+      - SMTP_PASSWORD=
+      - RECEIVE_EMAIL=
+    restart: always
