@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - "master"
+    paths-ignore:
+      - docker-compose.yml
+      - example.env
+      - README.md
 
 jobs:
   docker:

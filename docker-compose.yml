@@ -8,4 +8,5 @@ services:
       - SMTP_USER=
       - SMTP_PASSWORD=
       - RECEIVE_EMAIL=
+      - SEND_EMAIL=
     restart: always
